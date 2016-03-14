@@ -1,0 +1,131 @@
+/* Global Styles */
+
+body {
+  font-family: 'Sumana', serif;
+  background-image: url(images/background.jpg);
+}
+
+.container {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+
+/* Typography */
+
+h1 {
+  font-weight: 700;
+  color: #312822;
+}
+
+.featured {
+  font-size: 2em;
+  padding-bottom: 10px;
+  color: #312822;
+}
+
+.name-title {
+  margin-left: 20px;
+}
+
+.lead {
+  margin-top: -10px;
+  color: #312822;
+}
+
+h3 {
+  color: #E2C099;
+}
+
+p a {
+  color: #312822;
+}
+
+p a:hover {
+  color: #E2C099;
+  text-decoration: none;
+}
+
+
+/* Images and Icons */
+
+i {
+  margin-top: 20px;
+  color: #312822;
+}
+
+.for-small {
+  display: none;
+}
+
+
+/* Semantic */
+
+hr {
+  border: 2px solid #312822;
+}
+
+
+/* Footer */
+
+.footer-text {
+  display: none;
+}
+
+nav {
+  background: #56493A;
+  opacity: 50%;
+  height: 60px;
+  margin-top: 25px;
+}
+
+.nav p {
+  margin-top: 10px;
+  color: #E2C099;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 990px) {
+  .name-title {
+    text-align: left;
+    margin-left: 0;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .for-small {
+    display: flex;
+  }
+  
+  .hero {
+    display: none;
+  }
+  .name-link {
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  h3 {
+    font-size: 1.3em;
+    line-height: .95;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  img {
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 2em;
+  }
+}
